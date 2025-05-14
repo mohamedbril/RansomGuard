@@ -33,21 +33,7 @@
 
 ---
 
-## 📁 Project Structure
 
-RansomGuard/
-├── blacklist/               # Directory for blacklisted files (hashes or executables)
-├── honeypot/                # Honeypot folder for bait files to catch ransomware
-├── machinelearning/         # Folder for machine learning models and scripts
-├── protectmodule/           # Core protection logic (e.g., file scanning, hash checking)
-├── ui/                      # User Interface components (e.g., CTk buttons, windows)
-├── yaramodule/              # YARA rule-related files and scripts
-├── blint.exe                # Malicious executable for testing (or part of detection)
-├── hashes.txt               # List of known malicious hashes (for blacklist detection)
-├── RansomPyShield.py        # Main script to launch and control the RansomShield
-├── README.md                # Project documentation (this file)
-├── Rule.zip                 # Compressed YARA rules (possibly for extraction)
-└── sigcheck.exe             # Tool for signature checking (possibly for file integrity)
 
 ## 🖥️ Requirements
 
