@@ -7,7 +7,7 @@ import time
 import psutil
 import keyboard
 import customtkinter as ctk
-# other scripts
+
 import honeypot.honeymanager as hm
 from ui.settingsui import settings_ui
 
